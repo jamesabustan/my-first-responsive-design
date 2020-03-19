@@ -2,12 +2,23 @@
     display: flex;
 }
 
+.jumbotron {
+    background-image: url(https://images.unsplash.com/photo-1516685018646-549198525c1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
 .navbar{
-    margin-top: 55px;
     text-align: center;
     list-style: none;
+    margin-top: 15px;
 }
 .navbar li {
     display: inline-block;
     margin-left: 60px;
+}
+
+section {
+    justify-content: center;
 }
