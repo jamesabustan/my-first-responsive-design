@@ -1,24 +1,107 @@
-.wrapper {
+ 
+   /* Color pallette
+        HEX: #b9936c  dark
+
+        HEX: #dac292  medium
+
+        HEX: #e6e2d3  light
+
+        HEX: #c4b7a6  tan
+   */
+ 
+ 
+ /* Global Style */
+   html {
+       font-size: 62.5%; /* 62.5 / 100 * 16 (default font size) = 10px */
+       font-family: 'Varela Round', sans-serif;
+   }
+   
+   h1 {
+       font-size: 2.6rem;
+   }
+   
+   
+
+   h2 {
+       font-size: 4.8rem;
+   }
+   
+   h3 {
+       font-size: 3rem;
+   }
+   
+   h4,
+   h5 {
+       font-size: 2.5rem;
+   }
+
+   li { 
+    font-size: 1.3rem;
+    }
+
+
+/* NAV AND HERO*/
+.jumbotron {
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.7)),url(/img/hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 100px;
+}
+
+.jumbotron 
+h1,
+ .lead {
+    font-size: 100px;
     display: flex;
 }
 
-.jumbotron {
-    background-image: url(https://images.unsplash.com/photo-1516685018646-549198525c1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
-    background-size: cover;
-    background-position: center;
+
+
+.d-block {
+    height: 60vh;
+    width: 100%;
+    object-fit: cover; /* amazeballs same as background-size:cover*/
+}
+
+nav {
+    background-color: #b9936c;;
+}
+
+header,h1  {
+    color: white;;
+}
+
+nav a{
+    color: white; 
+}
+
+nav ul{
     color: white;
 }
 
-.navbar{
-    text-align: center;
-    list-style: none;
-    margin-top: 15px;
-}
-.navbar li {
-    display: inline-block;
-    margin-left: 60px;
+.nav-item {
+    padding: ;
 }
 
-section {
-    justify-content: center;
+   
+   /* Types and Gallery*/
+
+ .row {
+     padding: 5rem 5rem;
+     margin-top: 1.3rem;
+     justify-content: center; 
+ }
+
+ .gallery {
+    margin-top: 1.3rem;
+    height: 80vh;
+ }
+
+ 
+/*Restaurants*/
+
+.img-thumbnail {
+    width: 100%;
 }
