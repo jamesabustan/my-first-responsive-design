@@ -8,13 +8,17 @@
 * Implement a CSS framework of our choice. 
 * Restaurant page should link to restaurants of your choice. 
 
+### Tech used 
+* HTML
+* CSS
+* Bootstrap
+
 
 ### What have we learned?
 * Learned how to display and icon in the web browser tab.
 * Learned how to display images at a consistent height.
 * Learned how to make a sticky navbar.
 * Learned how to use linear gradient on hero images.
-* Got more familiar with bootstrap.
 * Learned how to use image carousels and how to embed videos from youTube.
 * Working in a pair efficiently.
 * We learned a lot about flexbox and how it works.
@@ -22,7 +26,6 @@
 ### What challenges we overcame
 * Image sizing was difficult for us as we took a long time to work out how * to display images consistently.
 * Had to refactor our website to separate pages due to misunderstanding the brief.
-* Exploding computer due to infinite loop in hyperlink.
 * Embedding a youTube video was harder than we anticipated.
 
 ### What we struggled with
