@@ -1,6 +1,5 @@
-# My first responsive design.
-
-## Keir Pearson and James Abustan
+# My first responsive design
+#### Keir Pearson and James Abustan
 
 ### Project Brief
 * Create a responsive website showcasing our chosen food type / choice.
